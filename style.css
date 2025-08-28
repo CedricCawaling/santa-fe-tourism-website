@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(fonts/Floren-9Ya2L.otf);
+	font-family: bil;
+}
+
+.Navi { 
+		height: 10%;
+		width: 100%;
+		padding: 20px;
+  		border: 12px solid #ffc51b;
+  		border-bottom-style: solid ;
+  		border-top-style: none;
+  		border-left-style: none;
+  		border-right-style: none;
+  		
+		
+
+}
+
+.Navi ul {	
+	padding-left: 	10%;
+	 	display: flex;
+		align-content: center;
+		list-style-type: none;
+		font-size: large;
+
+	
+
+}
+
+.Navi ul li { 	list-style: none;
+				margin: 1px;
+
+
+}
+
+.Navi ul li a { text-decoration: none;
+		  		color: #ffd700;
+		  		padding:  10px;
+		  		padding-right: 40px;
+		  		padding-left: 40px;
+		  		transition: ease-in-out;
+		  		background-color: #236e96;
+		  		border-radius: 85px;
+		  		border: 2px transparent;
+		  		font-family: Fredoka One;
+		  		font-size: 35px;
+		  		margin: 15px;
+}
+.Navi ul li a:hover{
+			background-color: #ffd700; 
+			color: #236e96;
+}
+
+.About { 	display: inline-block;
+			margin: 10px;
+			margin-left: 15px;
+ 			text-align: justify;
+ 			color: #236e96;
+ 			font-family: Fredoka one;
+
+}
+.About h1 { box-shadow: 10px 10px;
+			border-radius: 85px;
+		  	border: 2px transparent;
+			font-size: 80px;
+			margin: 20PX;
+			text-align: center;
+			background-color: #ffd700; 
+			color: #236e96;
+
+}
+.About h2 { font-size: 30px;
+			margin: 20PX;
+			text-align: center;
+			padding-top: 20px;
+}	
+.About p {	margin: 4px;
+			margin-right: 6px; 
+			font-size: 19px;
+			text-align: justify;
+			padding: 15px;		
+			border: transparent;
+
+}
+.About img
+{ 		float: left;
+		height: 313px;
+		width: 340px;
+		margin-right: 20px;
+		border: 1px solid;
+		padding: 1px;	
+}
+
+.bord {		width: 100%;
+			border: 12px solid #ffc51b;
+  			border-bottom-style: solid ;
+  			border-top-style: none;
+  			border-left-style: none;
+  			border-right-style: none;
+  			position: static;
+}
+.About2 { 	display: inline-block;
+			margin: 1px;
+			font-size: large;
+ 			text-align: justify;
+ 			color: #236e96;
+ 			padding: 20px;
+  			font-family: Fredoka one;
+}
+	
+.About2 p {	margin: 1px; 
+			font-size: 20px;
+			text-align: justify;
+			padding: 12px;			
+			border: transparent;
+}
+.About2 img
+{ 		float: left;
+		height: 400px;
+		width: 420px;
+		margin-right: 12px;
+		margin-top: 1px;
+		border: 1px solid;
+		padding: 1px;
+}
+.Tour {	background-color: transparent;
+		font-family: Fredoka one;
+		height: 10%;
+		padding: 20px;
+  		border: 12px solid #ffc51b;
+  		border-bottom-style: solid ;
+  		border-top-style: none;
+  		border-left-style: none;
+  		border-right-style: none;
+  		position: static;
+  		
+}
+
+.Tour h1 { font-size: 50px;
+			margin: 1PX;
+			color: #ffd700;
+			text-align: center;
+			background-color: #236e96;;
+			letter-spacing: 7px;
+			border-radius: 80px;
+			letter-spacing: 10px;
+
+
+}
+.Tour h2 { font-size: 40px;
+			text-align: center;
+			background-color: #ffd700; 
+			color: #236e96;
+			border-radius: 50px;
+			letter-spacing: 10px;
+}
+
+.Tour .column {
+  float: left;
+  width: 48%;
+  padding: 12px;
+
+
+}
+.Tour .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Tour div.gallery {
+  					position: relative;
+  					padding-top: 20px;
+}
+
+.Tour div.gallery img {
+  width: 75%;
+  height: auto;
+  border: 5px solid #236e96;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+}
+
+.Tour .gallery div.desc {	position: absolute;
+							top: 50%;
+							width: 100%;
+							text-align: center;
+							background-color: transparent;
+							font-family: bil;
+
+}
+.Tour div.gallery .desc a {	font-size: 40px;
+							color: #ffd700;
+							text-decoration: none;
+							text-align: center;
+							background: rgba(35, 110, 150, 0.8);
+							border-radius: 40px;
+							border: 1px solid orangered;
+							transition: 0.2s;
+							padding: 15px;
+}
+.Tour div.gallery .desc a:hover {
+						color: #ffd700;;
+						text-decoration: none;
+						font-size: 50px;
+						border: 6px solid orangered;
+
+}
+.Tour div.gallery1{
+					padding-top: 20px;
+					position: relative;
+}
+.Tour div.gallery1 img {
+  width: 65%;
+  height: auto;
+  border: 5px solid #236e96;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+}
+
+.Tour div.gallery1 a img:hover {
+		 	border: 5px solid #ffd700 ;
+  			border-radius: 20px;
+
+
+}
+.vid { 		padding-left: 16%;
+		  	
+			align-items: center;
+
+}
+.foot {
+		padding: 20px;
+}
+.foot p { 		text-align: center;
+				text-decoration: none;
+		  		padding:  10px;
+		  		padding-right: 40px;
+		  		padding-left: 40px;
+		  		transition: ease-in-out;
+		  		border-radius: 85px;
+		  		border: 2px transparent;
+		  		font-family: Fredoka One;
+		  		font-size: 35px;
+		  		margin: 15px;
+				background-color: #ffd700; 
+				color: #236e96;
+				letter-spacing: 2px;
+				position: static;
+}
+.foot p a { color: orangered;
+			text-decoration: underline;
+			background-color: #ffd700;
+}
+.end ul {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 20px;                
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    flex-wrap: wrap;        
+}
+
+.end ul li {
+    background: rgba(245,252,255,0.6);
+    border-radius: 20px;
+    font-family: bil;
+    font-size: 2rem;          
+    color: #ee7600;
+    padding: 10px 20px;        
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    flex: 0 1 auto;         
+}
+
+
+
+.end .details {
+    font-family: Fredoka One;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #236e96;
+}
+.end .details i { position: relative;
+				justify-content: center;
+				align-items: center;
+}
+.end {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.end img {
+			height: auto;
+			position: relative;
+			width: 100%;
+}
